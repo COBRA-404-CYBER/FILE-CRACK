@@ -14,7 +14,7 @@ os.system("git pull")
 time.sleep(1)
 bit = platform.architecture()[0]
 if bit=='64bit':
-    print("\033[1;37m[\033[38;5;46m+\033[1;37m]\033[38;5;46m CONGRATULATION YOU DEVICE SUPPORT THIS TOOLS ")
+    print("\n\033[1;37m[\033[38;5;46m+\033[1;37m]\033[38;5;46m CONGRATULATION YOU DEVICE SUPPORT THIS TOOLS ")
     time.sleep(1)
     import green
 else:
